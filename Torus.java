@@ -19,7 +19,7 @@ public class Torus extends Shape implements ThreeDimensional, PiRequired, MassCa
     
     public Torus(){}//constructor 
     
-    public Torus(double majorRadius, double minorRadius){//
+    public Torus(double majorRadius, double minorRadius){
         this.majorRadius = majorRadius;//menetapkan nilai major radius
         this.minorRadius = minorRadius;// menetapkan nilai minor radius
     }
