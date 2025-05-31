@@ -44,9 +44,9 @@ public class Sphere extends Shape implements ThreeDimensional, PiRequired, MassC
     @Override
     public void printInfo(){
         System.out.printf("%-16s: %s%n%-16s: %s%n%-16s: %s%n",
-                "Surface Area", getSurfaceArea(),
                 "Volume", getVolume(),
-                "Weight", getMass());
+                "Luas Permukaan", getSurfaceArea(),
+                "Massa", getMass());
     }
     
     //method mengonversi massa bola dari gram ke kilogram 
